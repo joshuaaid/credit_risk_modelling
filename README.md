@@ -76,16 +76,6 @@ Minimal install:
 
 pip install pandas numpy scikit-learn scipy matplotlib seaborn
 
-| Stage             | Core ideas                                                    |
-| ----------------- | ------------------------------------------------------------- |
-| **Data prep**     | Winsorise outliers, WOE binning, time‑based OOT split         |
-| **PD**            | Logistic regression with WOE features ➜ scorecard             |
-| **LGD**           | Two‑stage model (occurrence + rate) with Beta calibration     |
-| **EAD**           | Linear‑logistic utilisation model, predictions clipped \[0‑1] |
-| **Expected Loss** | `EL = PD × LGD × EAD × EAD_factor`; stress scenarios          |
-| **Monitoring**    | Quarterly PSI, AUC drift alerts (> 5 pp), auto‑reports        |
-
-
 🤝 Contributing
 Fork → git checkout -b feature/my‑feature
 
