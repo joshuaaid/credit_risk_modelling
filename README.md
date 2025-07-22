@@ -21,27 +21,6 @@ Everything is implemented in plain‑vanilla Python—notebooks only, no GPU nee
 
 ---
 
-## 📂 Repository layout
-
-├── data/ # <‑‑ created by notebooks
-│   ├── raw/ # original Lending Club CSVs (you provide)
-│   └── processed/ # tidy train / test matrices
-├── models/ # pickled PD / LGD / EAD artefacts
-├── reports/ # PSI plots, EL tables, monitoring PDFs
-│
-├── Credit Risk Modeling - Preparation - With Comments.ipynb
-├── Credit Risk Modeling - PD Model - With Comments.ipynb
-├── Credit Risk Modeling - LGD model - With Comments.ipynb
-├── Credit Risk Modeling - EAD model - With Comments.ipynb
-├── Credit Risk Modeling - LGD and EAD Models - With Comments.ipynb
-├── Credit Risk Modeling - Calculating expected loss - With Comments.ipynb
-├── Credit Risk Modeling - Monitoring .ipynb
-│
-├── requirements.txt
-├── README.md # ← this file
-├── CITATION.cff # citation metadata recognised by GitHub
-└── LICENSE
-
 
 ### Notebook quick‑look  
 
