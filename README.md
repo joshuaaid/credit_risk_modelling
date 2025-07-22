@@ -66,17 +66,19 @@ cd credit‑risk‑modelling
 
 # 2 · Install dependencies
 
+Minimal install:
+
+pip install pandas numpy scikit-learn scipy matplotlib seaborn
+
 # 3 · Download your raw data
 
 # 4 · Launch notebooks
 jupyter lab
 
 
-Minimal install:
 
-pip install pandas numpy scikit-learn scipy matplotlib seaborn
+# 🤝 5. Contributing
 
-🤝 Contributing
 Fork → git checkout -b feature/my‑feature
 
 Commit → git commit -m 'Add feature'
