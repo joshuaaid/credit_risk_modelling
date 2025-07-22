@@ -64,20 +64,11 @@ Everything is implemented in plain‑vanilla Python—notebooks only, no GPU nee
 git clone https://github.com/joshuaaid/credit_risk_modelling.git
 cd credit‑risk‑modelling
 
-# 2 · Create a virtual environment
-python -m venv .venv
-source .venv/bin/activate       # Windows: .venv\Scripts\activate
+# 2 · Install dependencies
 
-# 3 · Install dependencies
-pip install -r requirements.txt
+# 3 · Download your raw data
 
-# 4 · Download raw data
-# Lending Club 2007‑2015 dataset (~1 GB):
-# https://www.kaggle.com/wendykan/lending-club-loan-data
-mkdir -p data/raw
-cp </path/to/loan_data_*.csv> data/raw/
-
-# 5 · Launch notebooks
+# 4 · Launch notebooks
 jupyter lab
 
 
