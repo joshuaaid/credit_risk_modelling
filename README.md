@@ -77,7 +77,7 @@ jupyter lab
 
 
 
-# 🤝 5. Contributing
+# 5. Contributing
 
 Fork → git checkout -b feature/my‑feature
 
