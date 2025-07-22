@@ -61,7 +61,7 @@ Everything is implemented in plain‑vanilla Python—notebooks only, no GPU nee
 
 ## 🚀 Quick start
 # 1 · Clone
-git clone https://github.com/<your‑handle>/credit‑risk‑modelling.git
+git clone https://github.com/joshuaaid/credit_risk_modelling.git
 cd credit‑risk‑modelling
 
 # 2 · Create a virtual environment
